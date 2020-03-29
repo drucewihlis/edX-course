@@ -1,0 +1,17 @@
+.SASS p {
+  font-size: 14px;
+  color: #579ee8;
+}
+
+.wow, .yeww {
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.wow {
+  background-color: yellow;
+}
+
+.yeww {
+  background-color: red;
+}

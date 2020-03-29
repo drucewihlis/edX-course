@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+        #top {
+          font-size: 24px;
+        }
+        #middle {
+          font-size: 30px;
+          background-color: navy;
+        }
+        .important_words {
+          font-weight: bold;
+        }
+        input[type=text]{
+          background-color: yellow;
+        }
+        button:hover{
+          background-color: orange;
+        }
+        h6 > ul{
+          font-weight: 100;
+        }
+        @media print{
+          .screen-only{
+            display:none;
+          }
+        }
+
+          @media (min-width: 600px){
+            ul li{
+              color:purple;
+            }
+        }
+        @media (max-width:599px){
+          ul li{
+            color:green;
+          }
+        }
+        </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <a href ="index.html">Home</a>
+          </div>
+          <div class="col-sm">
+            <a href ="table.html">Bikes</a>
+          </div>
+          <div class="col-sm">
+            <a href ="tensors.html">Tensors</a>
+          </div>
+          <div class="col.sm">
+            <a href ="alert.html">Alerts</a>
+          </div>
+        </div>
+      </div>
+
+      <h3>Here comes no-sense list:</h3>
+      <ul id="top">
+        <li> abc</li>
+        <li> cbd</li>
+        <li> thc</li>
+      </ul>
+
+      <h2><a href ="table.html">Here</a> are my lovely bikes</h2>
+      <p> And put some more <span class="important_words">text</span> just to be here </p>
+      <h2><a href ="tensors.html">Here</a> are some tensor basics</h2>
+      <input name="your bike" type="text" placeholder="Your bike">
+      <button type="button" name="button">Submit!</button>
+      <p id="middle">Another paragraph</p>
+      <h5> FRUITS
+          <ul>
+            <li>Apple</li>
+            <li>Orange</li>
+            <li>Banana</li>
+          </ul>
+      </h6>
+      <p class="screen-only">Can you imagine you cannot print this paragraph?</p>
+
+
+    </body>
+</html>

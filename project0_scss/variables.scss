@@ -1,0 +1,23 @@
+$color: #579ee8;
+
+.SASS {
+  p{
+    font-size: 14px;
+    color:$color;
+    }
+}
+
+%inheritance_template {
+  font-family: sans-serif;
+  font-size: 40px;
+}
+.wow {
+  @extend %inheritance_template;
+  background-color: yellow;
+}
+
+
+.yeww {
+  @extend %inheritance_template;
+  background-color: red;
+}

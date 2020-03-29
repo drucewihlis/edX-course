@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../project0_scss/variables.scss"
+	],
+	"sourcesContent": [
+		"$color: #579ee6;\r\n\r\nul {\r\nfont-size: 14px;\r\ncolor:$color;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,EAAE,CAAC;EACH,SAAS,EAAE,IAAI;EACf,KAAK,EAJG,OAAO;CAKd"
+}

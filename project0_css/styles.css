@@ -1,0 +1,47 @@
+
+body{
+  background-color: #b4b6b8;
+}
+h1{
+  text-align:center;
+  color:red;
+}
+h2{
+  color:blue;
+  border: 2px dotted purple;
+  width: 20%;
+}
+p{
+  color:green;
+}
+table {
+  width: 50%;
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: teal;
+  margin: 30px;
+  padding: 40px;
+}
+th,td{
+  border:1px dashed black;
+  padding: 5px;
+  text-align: center;
+}
+th{
+  background-color: lightgrey;
+}
+
+a::before{
+  content:"\2192"
+}
+#buttons{
+  display:flex;
+  flex-wrap: wrap;
+}
+#buttons > div{
+  background-color: white;
+  width: 10%;
+  height: 50px;
+  margin: 5px;
+  padding: 20px;
+}
